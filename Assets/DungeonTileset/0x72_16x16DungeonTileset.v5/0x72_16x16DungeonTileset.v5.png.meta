@@ -126,19 +126,40 @@ TextureImporter:
       name: 0x72_16x16DungeonTileset.v5_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 224
+        x: 32
+        y: 48
         width: 16
         height: 16
-      alignment: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ae62dc6f1c5dc498bd367f81fe9806
+      internalID: -1560123828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4af2a6b37cb14cb4692757981a4a7015
-      internalID: -1560123828
+      spriteID: 81f9bf48897334141802cc2bac32f636
+      internalID: 1856928615
       vertices: []
       indices: 
       edges: []
@@ -157,6 +178,7 @@ TextureImporter:
       0x72_16x16DungeonTileset.v5_0: -1560123828
       Player_0: -598461039
       firebase Un tool wwall: -1379654717
+      floor: 1264283155
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

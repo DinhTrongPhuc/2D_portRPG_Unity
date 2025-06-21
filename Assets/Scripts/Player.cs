@@ -21,13 +21,12 @@ public class Player : MonoBehaviour
         float y = Input.GetAxisRaw("Vertical");
 
         moveDelta = new Vector3(x, y, 0);
-        //swap sprite direction whether ur going right or left
+
         if (moveDelta.x > 0)
-            transform.localScale = Vector3.one; //  Vector3(1, 1, 1)
+            transform.localScale = Vector3.one; 
         else if (moveDelta.x < 0)
             transform.localScale = new Vector3(-1, 1, 1);
 
-        // collision checking
         hit = Physics2D.BoxCast(transform.position, boxCollider.size, 0, new Vector2(0, moveDelta.y), Mathf.Abs(moveDelta.y * Time.deltaTime), LayerMask.GetMask("Actor", "Blocking"));
         if (hit.collider == null)
         {
