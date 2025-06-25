@@ -39,7 +39,6 @@ public class Player : MonoBehaviour
             transform.Translate(moveDelta.x * Time.deltaTime, 0, 0);
         }
 
-
     }
 
 }
