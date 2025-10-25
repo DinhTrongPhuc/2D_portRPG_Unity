@@ -1735,7 +1735,7 @@ MonoBehaviour:
   weaponPrices: 
   xpTable: 
   player: {fileID: 2111309653}
-  pessos: 12
+  pessos: 0
   experience: 0
 --- !u!1 &832885766
 GameObject:
@@ -1784,7 +1784,6 @@ MonoBehaviour:
     maxNormalAngle: 0
   sceneNames:
   - Dungeon
-  - Main
 --- !u!61 &832885768
 BoxCollider2D:
   m_ObjectHideFlags: 0
