@@ -27,12 +27,19 @@ public class GameManager : MonoBehaviour
 
     //references
     public Player player;
-    // public weapon weapon...........;
+    // public weapon weapon
+    public FloatingTextManager floatingTextManager;
 
 
     //logic
     public int pessos;
     public int experience;
+
+    //floating text
+    public void ShowText(string msg, int fontSize, Color color, Vector3 position, Vector3 motion, float duration)
+    {
+        floatingTextManager.Show(msg, fontSize, color, position, motion, duration);
+    }
 
     /// <summary>
     /// INT preference 
